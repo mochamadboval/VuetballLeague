@@ -59,6 +59,13 @@ const routes = [
     meta: {
       title: "Match | Vuetball League"
     }
+  },
+  {
+    path: "*",
+    component: () => import("../views/NotFound.vue"),
+    meta: {
+      title: "Page Not Found | Vuetball League"
+    }
   }
 ];
 
