@@ -12,7 +12,7 @@
         <i class="icofont-football text-danger"></i> Own Goal
       </span>
     </div>
-    <div v-else-if="event.detail === 'Penalty Goal'">
+    <div v-else-if="event.detail === 'Penalty'">
       {{ event.player.name }} <br />
       <span class="text-secondary">
         <i class="icofont-football text-dark"></i> Penalty
